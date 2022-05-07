@@ -15,8 +15,9 @@ body {
     border-radius: 5px;
     width: 50%;
 }
+
 .button:hover {
-    background-color:#c56709;
+    background-color: #c56709;
 }
 
 .form_title {
@@ -33,7 +34,6 @@ hr.new {
     border-color: rgb(75, 35, 15);
     border-width: 6px 0 0 0;
     align-items: center;
-
 }
 
 #align {
@@ -53,13 +53,69 @@ hr.new {
     width: 42%;
 }
 
-@media (max-width: 1200px) {
-    body {
-        font-family: "Times New Roman", Times, serif;
-    }
 
+
+
+@media (min-width: 400px) {
+    hr.new {
+        width: 95%;
+    }
+    .container {
+        width: 95%;
+    }
     #align {
         text-align: left;
-        color: #964B00;
+    }
+
+    }
+
+@media (min-width: 768px) {
+    hr.new {
+        width: 80%;
+    }
+    .container {
+        width: 80%;
+    }
+    #align {
+        text-align: left;
+    }
+}
+
+
+@media (min-width: 992px) {
+    hr.new {
+        width: 60%;
+    }
+    .container {
+        width: 60%;
+    }
+    #align {
+        text-align: left;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    hr.new {
+        width: 50%;
+    }
+    .container {
+        width: 50%;
+    }
+    #align {
+        text-align: right;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    hr.new {
+        width: 42%;
+    }
+    .container {
+        width: 42%;
+    }
+    #align {
+        text-align: right;
     }
 }
