@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<?php include ('../includes/comment.php')?>
+<?php include ('includes/comment.php')?>
 </body>
 
 </html>
